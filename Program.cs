@@ -1,4 +1,7 @@
-﻿using System;
+using System;
+
+using tpmodul7_kelompok_4;
+
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.Json;
@@ -50,10 +53,14 @@ class KuliahMahasiswa103022300001
     }
 }
 
+
 class Program
 {
     static void Main()
     {
+        DataMahasiswa103022300160.ReadJSON();
+        KuliahMahasiswa103022300160.ReadJSON();
+
         DataMahasiswa103022300001.ReadJSON();
         KuliahMahasiswa103022300001.ReadJSON();
     }
