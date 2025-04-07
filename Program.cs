@@ -6,6 +6,6 @@ class Program
     static void Main()
     {
         DataMahasiswa103022300160.ReadJSON();
-        Console.ReadLine();
+        KuliahMahasiswa103022300160.ReadJSON();
     }
 }
